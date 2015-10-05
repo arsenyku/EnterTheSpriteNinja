@@ -8,13 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		12931D501BC325E200C2480A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12931D4F1BC325E200C2480A /* AppDelegate.swift */; };
-		12931D521BC325E200C2480A /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 12931D511BC325E200C2480A /* GameScene.sks */; };
 		12931D541BC325E200C2480A /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12931D531BC325E200C2480A /* GameScene.swift */; };
 		12931D561BC325E200C2480A /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12931D551BC325E200C2480A /* GameViewController.swift */; };
 		12931D591BC325E200C2480A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12931D571BC325E200C2480A /* Main.storyboard */; };
 		12931D5B1BC325E200C2480A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12931D5A1BC325E200C2480A /* Assets.xcassets */; };
 		12931D5E1BC325E200C2480A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12931D5C1BC325E200C2480A /* LaunchScreen.storyboard */; };
 		12931D691BC325E200C2480A /* EnterTheSpriteNinjaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12931D681BC325E200C2480A /* EnterTheSpriteNinjaTests.swift */; };
+		12931D781BC329E700C2480A /* background-music-aac.caf in Resources */ = {isa = PBXBuildFile; fileRef = 12931D751BC329E700C2480A /* background-music-aac.caf */; settings = {ASSET_TAGS = (); }; };
+		12931D791BC329E700C2480A /* pew-pew-lei.caf in Resources */ = {isa = PBXBuildFile; fileRef = 12931D761BC329E700C2480A /* pew-pew-lei.caf */; settings = {ASSET_TAGS = (); }; };
+		12931D7A1BC329E700C2480A /* sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 12931D771BC329E700C2480A /* sprites.atlas */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +32,6 @@
 /* Begin PBXFileReference section */
 		12931D4C1BC325E200C2480A /* EnterTheSpriteNinja.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EnterTheSpriteNinja.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12931D4F1BC325E200C2480A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		12931D511BC325E200C2480A /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		12931D531BC325E200C2480A /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		12931D551BC325E200C2480A /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		12931D581BC325E200C2480A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -40,6 +41,9 @@
 		12931D641BC325E200C2480A /* EnterTheSpriteNinjaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnterTheSpriteNinjaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		12931D681BC325E200C2480A /* EnterTheSpriteNinjaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterTheSpriteNinjaTests.swift; sourceTree = "<group>"; };
 		12931D6A1BC325E200C2480A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12931D751BC329E700C2480A /* background-music-aac.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "background-music-aac.caf"; sourceTree = "<group>"; };
+		12931D761BC329E700C2480A /* pew-pew-lei.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "pew-pew-lei.caf"; sourceTree = "<group>"; };
+		12931D771BC329E700C2480A /* sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = sprites.atlas; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,8 +85,8 @@
 		12931D4E1BC325E200C2480A /* EnterTheSpriteNinja */ = {
 			isa = PBXGroup;
 			children = (
+				12931D731BC329E700C2480A /* SpriteKitSimpleGameResources */,
 				12931D4F1BC325E200C2480A /* AppDelegate.swift */,
-				12931D511BC325E200C2480A /* GameScene.sks */,
 				12931D531BC325E200C2480A /* GameScene.swift */,
 				12931D551BC325E200C2480A /* GameViewController.swift */,
 				12931D571BC325E200C2480A /* Main.storyboard */,
@@ -100,6 +104,24 @@
 				12931D6A1BC325E200C2480A /* Info.plist */,
 			);
 			path = EnterTheSpriteNinjaTests;
+			sourceTree = "<group>";
+		};
+		12931D731BC329E700C2480A /* SpriteKitSimpleGameResources */ = {
+			isa = PBXGroup;
+			children = (
+				12931D741BC329E700C2480A /* Sounds */,
+				12931D771BC329E700C2480A /* sprites.atlas */,
+			);
+			path = SpriteKitSimpleGameResources;
+			sourceTree = "<group>";
+		};
+		12931D741BC329E700C2480A /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				12931D751BC329E700C2480A /* background-music-aac.caf */,
+				12931D761BC329E700C2480A /* pew-pew-lei.caf */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,10 +204,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12931D521BC325E200C2480A /* GameScene.sks in Resources */,
+				12931D7A1BC329E700C2480A /* sprites.atlas in Resources */,
+				12931D781BC329E700C2480A /* background-music-aac.caf in Resources */,
 				12931D5E1BC325E200C2480A /* LaunchScreen.storyboard in Resources */,
 				12931D5B1BC325E200C2480A /* Assets.xcassets in Resources */,
 				12931D591BC325E200C2480A /* Main.storyboard in Resources */,
+				12931D791BC329E700C2480A /* pew-pew-lei.caf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
