@@ -17,6 +17,7 @@
 		12931D781BC329E700C2480A /* background-music-aac.caf in Resources */ = {isa = PBXBuildFile; fileRef = 12931D751BC329E700C2480A /* background-music-aac.caf */; settings = {ASSET_TAGS = (); }; };
 		12931D791BC329E700C2480A /* pew-pew-lei.caf in Resources */ = {isa = PBXBuildFile; fileRef = 12931D761BC329E700C2480A /* pew-pew-lei.caf */; settings = {ASSET_TAGS = (); }; };
 		12931D7A1BC329E700C2480A /* sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 12931D771BC329E700C2480A /* sprites.atlas */; settings = {ASSET_TAGS = (); }; };
+		12931D7C1BC32D9A00C2480A /* CGPoint+NormalVector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12931D7B1BC32D9A00C2480A /* CGPoint+NormalVector.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		12931D751BC329E700C2480A /* background-music-aac.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "background-music-aac.caf"; sourceTree = "<group>"; };
 		12931D761BC329E700C2480A /* pew-pew-lei.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "pew-pew-lei.caf"; sourceTree = "<group>"; };
 		12931D771BC329E700C2480A /* sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = sprites.atlas; sourceTree = "<group>"; };
+		12931D7B1BC32D9A00C2480A /* CGPoint+NormalVector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGPoint+NormalVector.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 				12931D4F1BC325E200C2480A /* AppDelegate.swift */,
 				12931D531BC325E200C2480A /* GameScene.swift */,
 				12931D551BC325E200C2480A /* GameViewController.swift */,
+				12931D7B1BC32D9A00C2480A /* CGPoint+NormalVector.swift */,
 				12931D571BC325E200C2480A /* Main.storyboard */,
 				12931D5A1BC325E200C2480A /* Assets.xcassets */,
 				12931D5C1BC325E200C2480A /* LaunchScreen.storyboard */,
@@ -230,6 +233,7 @@
 				12931D541BC325E200C2480A /* GameScene.swift in Sources */,
 				12931D561BC325E200C2480A /* GameViewController.swift in Sources */,
 				12931D501BC325E200C2480A /* AppDelegate.swift in Sources */,
+				12931D7C1BC32D9A00C2480A /* CGPoint+NormalVector.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
